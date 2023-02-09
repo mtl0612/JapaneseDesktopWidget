@@ -1,7 +1,9 @@
 import os
 import time
 import random
+import csv
 import configparser
+from pathlib import Path
 import tkinter as tk
 from tkinter import simpledialog
 from tkinter import colorchooser
@@ -10,9 +12,20 @@ import textwrap
 debug = False
 config_file = "vocabulary.ini"
 
+# data should store in the same directory with script
+os.chdir(Path(__file__).parent)
 
 bg_color = "#121212"
 
+class Word:
+    def __init__(self, kanji, hanviet, hiragana, meaning):
+        self.kanji = kanji
+        self.hanviet = hanviet
+        self.hiragana = hiragana
+        self.meaning = meaning
+    
+    def __str__(self):
+        return f"{self.kanji} - {self.hanviet} - {self.hiragana} - {self.meaning}"
 
 class Application(tk.Frame):
     def __init__(self, master=None):
@@ -43,7 +56,7 @@ class Application(tk.Frame):
         self.loadConfig()
         self.createMenu()
 
-        self.vocabulary_text = self.loadData(self.data_file)
+        self.vocabulary_data = self.loadDataFromFile(self.data_file)
 
         if self.shuffle:
             self.shuffle_words()
@@ -103,10 +116,13 @@ class Application(tk.Frame):
         with open(config_file, "w") as f:
             self.config.write(f)
 
-    def loadData(self, data_file):
-        with open(data_file, "r", encoding="utf-8-sig") as f:
-            data = f.read().splitlines()
-        data = [item.split("|") for item in data]
+    def loadDataFromFile(self, data_file):
+        data = []
+        with open(data_file, "r", encoding="utf-8-sig") as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                data.append(Word(kanji=row['kanji'], hanviet=row['hanviet'], \
+                                hiragana=row['hiragana'], meaning=row['meaning']))
         return data
 
     def createWidgets(self):
@@ -145,7 +161,7 @@ class Application(tk.Frame):
         self.lbl_next["text"] = "▶"
         self.lbl_next.grid(row=0, column=2, sticky=tk.E, padx="20 0")
         self.lbl_next.configure(font=("MS Gothic", 30, "normal"))
-        self.lbl_next.bind("<Button-1>", lambda x: self.next_vocab_word(force=True))
+        self.lbl_next.bind("<Button-1>", self.on_btn_next)
         self.labels.append(self.lbl_next)
 
         self.lbl_meaning = tk.Label(self, fg="white", bg="black")
@@ -216,35 +232,36 @@ class Application(tk.Frame):
         new_index = simpledialog.askinteger(
             "Input index", "Please input index", parent=self
         )
-        if new_index <= len(self.vocabulary_text):
+        if new_index <= len(self.vocabulary_data):
             self.word_index = new_index - 2
             self.next_vocab_word(force=True)
 
-    def setLabelsText(self, entry):
-        self.lbl_number["text"] = f"{self.word_index+1}/{len(self.vocabulary_text)}"
-
-        hiragana = "\n".join(textwrap.wrap(entry[1].strip(), width=7))
+    def updateLabelsText(self):
+        vocab_word = self.vocabulary_data[self.word_index]
+        print(f"Update GUIs with word {vocab_word}")
+        self.lbl_number["text"] = f"{self.word_index+1}/{len(self.vocabulary_data)}"
+        
+        hiragana = "\n".join(textwrap.wrap(vocab_word.hiragana.strip(), width=7))
         self.lbl_hiragana["text"] = hiragana
 
-        vocabulary = "\n".join(textwrap.wrap(entry[0].strip(), width=4))
+        vocabulary = "\n".join(textwrap.wrap(vocab_word.kanji.strip(), width=4))
         if vocabulary == "":
             vocabulary = hiragana
         self.lbl_vocabulary["text"] = vocabulary
 
-        meaning = "\n".join(textwrap.wrap(entry[2].strip(), width=26))
+        meaning = "\n".join(textwrap.wrap(vocab_word.meaning.strip(), width=26))
         self.lbl_meaning["text"] = meaning
 
     def shuffle_words(self):
-        random.shuffle(self.vocabulary_text)
+        random.shuffle(self.vocabulary_data)
         self.last_changed_time = None
         self.restart()
 
     def prev_vocab_word(self, event=None):
         self.word_index -= 1
         if self.word_index == -1:
-            self.word_index = len(self.vocabulary_text) - 1
-        vocab_word = self.vocabulary_text[self.word_index]
-        self.setLabelsText(vocab_word)
+            self.word_index = len(self.vocabulary_data) - 1
+        self.updateLabelsText()
 
     def on_btn_next(self, event=None):
         self.last_changed_time = None
@@ -272,10 +289,9 @@ class Application(tk.Frame):
             return
 
         self.word_index += 1
-        if self.word_index == len(self.vocabulary_text):
+        if self.word_index == len(self.vocabulary_data):
             self.word_index = 0
-        vocab_word = self.vocabulary_text[self.word_index]
-        self.setLabelsText(vocab_word)
+        self.updateLabelsText()
         self.last_changed_time = time.time()
 
     def auto_change_vocab_word(self):
