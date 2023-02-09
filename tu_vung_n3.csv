@@ -499,3 +499,382 @@
 流れる,lưu,ながれる,chảy
 流す,lưu,ながす,cho chảy
 濡れる,nhu,ぬれる,bị ướt
+濡らす,nhu,ぬらす,làm ướt
+迷う,mê,まよう,lạc đường
+悩む,não,なやむ,băn khoăn
+慌てる,hoảng,あわてる,vội vàng
+覚める,giác,さめる,thức dậy
+覚ます,giác,さます,"mở mắt, tỉnh"
+眠る,miên,ねむる,ngủ
+祈る,kì,いのる,"cầu, khấn"
+祝う,chúc,いわう,ăn mừng
+感じる,cảm,かんじる,cảm thấy
+クラスメート,,クラスメート,bạn cùng lớp
+グループ,,グループ,nhóm
+チーム,,チーム,đội
+プロフェッショナル,,プロフェッショナル,chuyên nghiệp
+アマチュア,,アマチュア,nghiệp dư
+トレーニング,,トレーニング,đào tạo
+マッサージ,,マッサージ,mát xa
+アドバイス,,アドバイス,khuyên
+アイデア・アイディア,,アイデア・アイディア,ý tưởng
+トップ,,トップ,top
+スピード,,スピード,tốc độ
+ラッシュ,,ラッシュ,đông đúc
+バイク,,バイク,xe máy
+ヘルメット,,ヘルメット,mũ bảo hiểm
+コンタクトレンズ,,コンタクトレンズ,kính áp tròng
+ガラス,,ガラス,kính
+プラスチック,,プラスチック,nhựa
+ベランダ,,ベランダ,ban công
+ペット,,ペット,thú cưng
+ベンチ,,ベンチ,ghế bành
+デザイン,,デザイン,thiết kế
+バーゲンセール,,バーゲンセール,sale
+パート,,パート,làm thêm
+コンビニエンスストア,,コンビニエンスストア,cửa hàng tiện ích
+レジ,,レジ,máy tính tiền
+レシート,,レシート,hóa đơn
+インスタント,,インスタント,ăn liền
+ファストフード,,ファストフード,đồ ăn nhanh
+フルーツ,,フルーツ,trái cây
+デザート,,デザート,tráng miệng
+インターネット,,インターネット,internet
+チャイム,,チャイム,chuông
+アナウンス,,アナウンス,thông báo
+メッセージ,,メッセージ,tin nhắn
+パンフレット,,パンフレット,tờ rơi
+カード,,カード,card
+インタビュー,,インタビュー,phỏng vấn
+アンケート,,アンケート,tờ câu hỏi
+データ,,データ,dữ liệu
+パーセント,,パーセント,phần trăm
+濃い,nồng,こい,"đậm, đặc"
+薄い,bạc,うすい,"mỏng, nhạt"
+酸っぱい,toan,すっぱい,chua
+臭い,xú,くさい,thối
+おかしい,,おかしい,lạ
+かっこいい,,かっこいい,bảnh bao
+うまい,,うまい,ngon
+親しい,thân,したしい,thân thiết
+詳しい,tường,くわしい,chi tiết
+細かい,tế,こまかい,"tiểu tiết, bé"
+浅い,thiển,あさい,nông
+固い・硬い,"cố, ngạnh",かたい,cứng
+ぬるい,,ぬるい,nguội
+まぶしい,,まぶしい,chói
+蒸し暑い,"chưng, thử",むしあつい,nóng ẩm
+清潔な,"thanh, khiết",せいけつな,sạch
+新鮮な,"tân, tiên",しんせんな,tươi
+豊かな,phong,ゆたかな,giàu có
+立派な,lập,りっぱな,siêu
+正確な,"chính, xác",せいかくな,chính xác
+確かな,xác,たしかな,đích thực
+重要な,"trọng, yếu",じゅうような,quan trọng
+必要な,"tất, yếu",ひつような,cần thiết
+もったいない,,もったいない,lãng phí
+すごい,,すごい,"ghê, siêu"
+ひどい,,ひどい,tồi
+激しい,kích,はげしい,mãnh liệt
+そっくりな,,そっくりな,giống
+急な,cấp,きゅうな,đột nhiên
+敵とな,thích,てきとな,phù hợp
+特別な,"đặc, biệt",とくべつな,đặc biệt
+完全な,"hoàn, toàn",かんぜんな,toàn bộ
+盛んな,thịnh,さかんな,thịnh vượng
+様々な,dạng,さまざまな,đa đạng
+可能な,"khả, năng",かのうな,khả thi
+不可能な,"bất, khả, năng",ふかのうな,bất khả thi
+基本的な,"cơ, bản, đích",きほんてきな,cơ bản
+国際的な,"quốc, tế, đích",こくさいてきな,tính quốc tế
+ばらばらな,,ばらばらな,"tung tóe, chia rẽ"
+ぼろぼろな,,ぼろぼろな,"rách nát, te tua"
+大変に,"đại, biến",たいへんに,"khủng khiếp, rất nhiều"
+ほとんど,,ほとんど,gần như hoàn toàn
+大体,"đại, thể",だいたい,"phần lớn, trong khoảng"
+かなり,,かなり,khá
+ずいぶん,,ずいぶん,đáng kể
+けっこう,,けっこう,rất
+大分,"đại, phân",ずいぶん,"chủ yếu, khá"
+もっと,,もっと,"hơn, nữa"
+しっかり,,しっかり,toàn bộ
+いっぱい,,いっぱい,đầy
+ぎりぎり,,ぎりぎり,"gần, sát nút"
+ぴったり,,ぴったり,"vừa vặn, đúng"
+たいてい,,たいてい,"đại thể, thường"
+同時に,"đồng, thời",どうじに,cùng lúc
+前もって,tiền,まえもって,trước
+すぐに,,すぐに,ngay lập tức
+もうすぐ,,もうすぐ,sắp
+突然,"đột, nhiên",とつぜん,đột nhiên
+あっという間に,gian,あっというまに,loáng một cái
+いつの間にか,gian,いつのまにか,lúc nào không biết
+しばらく,,しばらく,một chút
+ずっと,,ずっと,"suốt, nhiều"
+相変わらず,"tương, biến",あいかわらず,như mọi khi
+次々に,thứ,つぎつぎに,lần lượt
+どんどん,,どんどん,dần dần
+ますます,,ますます,càng ngày càng
+やっと,,やっと,"cuối cùng, vừa đủ"
+とうとう,,とうとう,"sau cùng, cuối cùng, sau tất cả"
+ついに,,ついに,"cuối cùng, sau cùng"
+もちろん,,もちろん,tất nhiên
+やはり,,やはり,như dự tính
+きっと,,きっと,nhất định
+ぜひ,,ぜひ,"bằng mọi giá, rất (muốn)"
+なるべく,,なるべく,càng nhiều càng tốt
+案外,"án, nội",あんがい,không ngờ đến
+もしかすると・もしかしたら・もしかして,,もしかすると・もしかしたら・もしかして,có lẽ
+まさか,,まさか,"không thể ngờ, không"
+うっかり,,うっかり,"ngơ ngác, không để ý"
+つい,,つい,"vô ý, buột"
+思わず,tư,おもわず,không ngờ đến
+ほっと,,ほっと,yên tâm
+いらいら,,いらいら,"khó chịu, nóng giận"
+のんびり,,のんびり,tận hưởng
+実は,thực,じつは,thực tế là
+読書,"độc, thư",どくしょ,đọc viết
+演奏,"diễn, tấu",えんそう,biểu diễn
+芸術,"vân, thuật",げいじゅつ,nghệ thuật
+検査,"kiểm, tra",けんさ,kiểm tra
+血液,"huyết, dịch",けつえき,máu
+治療,"trị, liệu",ちりょう,trị liệu
+症状,"chứng, trạng",しょうじょう,triệu chứng
+予防,"dự, phòng",よぼう,dự phòng
+栄養,"dinh, dưỡng",えいよう,dinh dưỡng
+手術,"thủ, thuật",しゅじゅつ,phẫu thuật
+死亡,"tử, vong",しぼう,tử vong
+命,mệnh,いのち,sinh mạng
+一生,"nhất, sinh",いっしょう,suốt đời
+誤解,"ngộ, giải",ごかい,hiểu nhầm
+後悔,"hậu, hận",こうかい,hối hận
+訳,dịch,わけ,lý do
+態度,"thái, độ",たいど,thái độ
+癖,phích,くせ,thói quen
+礼儀,"lễ, nghĩa",れいぎ,lễ nghĩa
+文句,"văn, cú",もんく,phàn nàn
+表情,"biểu, tình",ひょうじょう,"biểu lộ, biểu thị"
+鏡面,"kính, diện",ひょうめん,bề mặt
+禁煙,"cấm, yên",きんえん,cấm hút thuốc
+禁止,"cấm, chỉ",きんし,cấm
+完成,"hoàn, thành",かんせい,hoàn thành
+課題,"khóa, đề",かだい,chủ đề
+例外,"ngoại, lệ",れいがい,ngoại lệ
+基本,"cơ, bản",きほん,cơ bản
+記録,"kí, lục",きろく,ghi âm
+状態,"trạng, thái",じょうたい,trạng thái
+出来事,"xuất, lai, sự",できごと,sự kiện
+場面,"trường, diện",ばめん,"khung cảnh, tình huống, hiện trường"
+機会,"cơ, hội",きかい,cơ hội
+距離,"cự, li",きょり,khoảng cách
+提案,"đề, án",ていあん,đề xuất
+やり取り,thủ,やりとり,"trao đổi, làm việc"
+知識,"tri, thức",ちしき,kiến thức
+実力,"thực, lực",じつりょく,thực lực
+手段,"thủ, đoạn",しゅだん,cách thức
+代表,"đại, biểu",だいひょう,đại biểu
+影響,"ảnh, hưởng",えいきょう,ảnh hưởng
+効果,"hiệu, quả",こうか,hiệu quả
+印象,"ấn, tượng",いんしょう,ấn tượng
+印,ấn,しるし,"dấu, dấu hiệu"
+合図,"hợp, đồ",あいず,ám hiệu
+共通,"cộng, thông",きょうつう,chung
+協調,"hiệp, điều",きょうちょう,nhấn mạnh
+省略,"tỉnh, lược",しょうりゃく,lược bớt
+挑戦,"khiêu, chiến",ちょうせん,thử thách
+やる気,khí,やるき,động lực
+勇気,"dũng, khí",ゆうき,"dũng cảm, dũng khí"
+資格,"tư, cách",しかく,"bằng cấp, tư cách"
+申請,"thân, thỉnh",しんせい,"đăng ký, ứng tuyển"
+本人,"bản, nhân",ほんにん,người được nói đến
+契約,"khiết, ước",けいやく,hợp đồng
+証明,"chứng, minh",しょうめい,"chứng minh, bằng chứng"
+変更,"biến, canh",へんこう,thay đổi
+保存,"bảo, tồn",ほぞん,bảo tồn
+保護,"bảo, hộ",ほご,bảo vệ
+環境,"hoàn, cảnh",かんきょう,môi trường
+資源,"tư, nguyên",しげん,tài nguyên
+不足,"bất, túc",ふそく,thiếu
+平均,"bình, quân",へいきん,trung bình
+割合,"cát, hợp",わりあい,tỷ lệ
+商売,"thương, mại",しょうばい,"kinh doanh, buôn bán"
+商品,"thương, phẩm",しょうひん,sản phẩm
+質,chất,しつ,chất lượng
+型,hình,かた,mẫu
+生産,"sinh, sản",せいさん,sản xuất
+消費,"tiêu, phí",しょうひ,"tiêu dùng, tiêu thụ"
+物価,"vật, giá",ぶっか,"giá cả, vật giá"
+倒産,"phá, sản",とうさん,phá sản
+携帯,"huề, đới",けいたい,mang theo
+現代,"hiện, đại",げんだい,hiện tại
+世紀,"thế, kỉ",せいき,thế kỷ
+文化,"văn, hóa",ぶんか,văn hóa
+都市,"đô, thị",とし,thành phố
+地方,"địa, phương",ちほう,địa phương
+戦争,"chiến, tranh",せんそう,chiến tranh
+平和,"bình, hòa",へいわ,hòa bình
+上る,thượng,のぼる,leo lên
+下る,hạ,くだる,đi xuống
+進む,tiến,すすむ,tiến lên
+進める,tiến,すすめる,làm cho tiến lên
+通る,thông,とおる,"thông qua, được chấp nhận, đi qua"
+通す,thông,とおす,"xuyên qua, thông qua"
+超える・越える,việt,こえる,vượt qua
+過ぎる,quá,すぎる,"quá, đi qua"
+過ごす,quá,すごす,sử dụng(thời gian)
+移る,di,うつる,được chuyển
+移す,di,うつす,chuyển
+連れる,liên,つれる,dẫn đi
+寄る,kí,よる,"ghé sát, lại gần"
+寄せる,kí,よせる,ghé vào
+与える,dữ,あたえる,"trao, cung cấp"
+得る,đắc,える,"đạt được, có được"
+向く,hướng,むく,"hướng, đối diện"
+向ける,hướng,むける,"hướng đến, quay"
+勧める,khuyến,すすめる,"rủ, mời, gợi ý"
+薦める,tiến,すすめる,"giới thiệu, gợi ý"
+任せる,nhiệm,まかせる,"tin tưởng, để cho ai đó làm gì"
+守る,thủ,まもる,"giữ, tuân thủ, bảo vệ"
+争う,tranh,あらそう,"gây gổ, tranh giành"
+臨む,lâm,のぞむ,ước
+信じる,tín,しんじる,tin tưởng
+通じる,thông,つうじる,"hiểu, thông qua"
+飽きる,bão,あきる,"chán, ngấy"
+思いつく,tư,おもいつく,nghĩ về
+思いやる,tư,おもいやる,"quan tâm, thông cảm"
+熱中する,"nhiệt, trung",ねっちゅうする,nghiện
+暮らす,mộ,くらす,sống
+巻く,quyển,まく,"quấn, quàng"
+結ぶ,kết,むすぶ,"buộc, cột, nối"
+済む,tế,すむ,kết thúc
+済ませる・済ます,tế,すませる・済ます,hoàn tất
+出来る,"xuất, lai",できる,"có thể, được xây dựng"
+切れる,thiết,きれる,"cắt, hết hạn"
+切らす,thiết,きらす,hết
+伝わる,truyền,つたわる,"được truyền đi, được trải ra, được giới thiệu"
+伝える,truyền,つたえる,"truyền đi, giới thiệu"
+続く,tục,つづく,"tiếp tục, xảy ra, lặp lại, theo sau"
+続ける,tục,つづける,"tiếp tục, xảy ra liên tiếp"
+つながる,,つながる,"được kết nối, được mở rộng, thông qua"
+つなぐ,,つなぐ,"kết nối, tham gia"
+つなげる,,つなげる,"kết nối, làm chặt thêm"
+伸びる,thân,のびる,"lớn lên, tăng thêm, dài ra"
+伸ばす,thân,のばす,"nuôi dài, căng ra"
+延びる,duyên,のびる,"bị trì hoãn, bị kéo dài"
+延ばす,duyên,のばす,"trì hoãn, kéo dài"
+重なる,trọng,かさなる,"xung đột, xếp chồng"
+重ねる,trọng,かさねる,"chồng lên, tích trữ"
+広がる,khuyếch,ひろがる,"mở rộng, bùng phát, lan tràn, trải dài"
+広げる,khuyếch,ひろげる,"mở thêm, mở rộng, nới rộng, mở ra"
+載る,tải,のる,"vừa, được công bố"
+載せる,tải,のせる,"cho vào, cho lên, công bố"
+そろう,,そろう,"thu thập, được thu thập"
+そろえる,,そろえる,"gom lại, chuẩn bị sẵn sàng"
+まとまる,,まとまる,"được thống nhất, được tổ chức, được sắp xếp"
+まとめる,,まとめる,"tập hợp, sàng lọc, hợp nhất, tổ chức"
+付く,phó,つく,"dính, gắn, đạt được, đi cùng với"
+付ける,phó,つける,"gắn, thêm vào"
+たまる,,たまる,được tiết kiệm
+ためる,,ためる,tiết kiệm
+交じる・混じる,"giao, hỗn",まじる,"giao vào, lẫn vào"
+交ざる・混ざる,"giao, hỗn",まざる,được trộn lẫn
+交ぜる・混ぜる,"giao, hỗn",まぜる,trộn vào
+解ける・溶ける,"giải, dung",とける,"được giải quyết, nóng chảy"
+解く・溶く,"giải, dung",とく,"giải quyết, nóng chảy"
+含む,hàm,ふくむ,"chứa, bao gồm"
+含める,hàm,ふくめる,bao gồm
+抜ける,bạt,ぬける,"tháo, tuột"
+抜く,bạt,ぬく,lấy ra
+現れる,hiện,あらわれる,"xuất hiện, được thẻ hiện"
+現す,hiện,あらわす,"xuất hiện, hiện ra"
+表れる,biểu,あらわれる,biểu hiện (trên mặt)
+表す,biểu,あらわす,"biểu thị, biểu lộ, đại diện"
+散る,tán,ちる,"bị tàn, rụng"
+散らす,tán,ちらす,tàn
+明ける,minh,あける,"(đêm) đến, (năm mới) bắt đầu, (mùa mưa) kết thúc"
+差す,sai,さす,"(mặt trời) chiếu sáng, mở (ô), nhỏ (thuốc mắt)"
+パートナ,,パートナー,đối tác
+リーダー,,リーダー,lãnh đạo
+ボランティア,,ボランティア,tình nguyện
+コミュニケーション,,コミュニケーション,giao tiếp
+ユーモア,,ユーモア,"hài hước, đùa"
+ショック,,ショック,"shock, choáng"
+ストレス,,ストレス,"căng thẳng, stress"
+バランス,,バランス,cân bằng
+レベル,,レベル,"trình độ, level"
+アップ,,アップ,tăng lên
+ダウン,,ダウン,giảm xuống
+プラス,,プラス,"phép cộng, tác động tích cực"
+マイナス,,マイナス,"phép trừ, tác động tiêu cực"
+イメージ,,イメージ,hình ảnh
+コンテスト,,コンテスト,cuộc thi
+マスコミ,,マスコミ,thông tin truyền thông
+プライバシー,,プライバシー,"cá nhân, riêng tư"
+オフィス,,オフィス,văn phòng
+ルール,,ルール,luật lệ
+マナー,,マナー,"kiểu, thói"
+ミス,,ミス,lỗi
+スケジュール,,スケジュール,"lịch, kế hoạch"
+タイトル,,タイトル,tiêu đề
+テーマ,,テーマ,chủ đề
+ストーリー,,ストーリー,câu chuyện
+ヒット,,ヒット,nổi tiếng
+ブランド,,ブランド,nhãn hiệu
+レンタル,,レンタル,thuê
+リサイクル,,リサイクル,tái chế
+ラベル,,ラベル,nhãn
+タイプ,,タイプ,loại
+スタイル,,スタイル,kiểu dáng
+セット,,セット,"cài đặt, set"
+ウイルス,,ウイルス,virus
+ロボット,,ロボット,robot
+エネルギー,,エネルギー,năng lượng
+デジタル,,デジタル,kỹ thuật số
+マイク,,マイク,"microphone, ghi âm"
+ブレーキ,,ブレーキ,phanh
+ペンキ,,ペンキ,sơn
+炊ける,xúy,たける,được nấu
+炊く,xúy,たく,nấu
+煮える,chữ,にえる,"được nấu, được ninh"
+煮る,chữ,にる,"nấu, ninh, luộc"
+炒める,sao,いためる,rán
+焼ける,thiêu,やける,"được nấu, được nướng"
+焼く,thiêu,やく,"nướng, nấu"
+ゆでる,,ゆでる,luộc
+揚げる,dương,あげる,rán ngập
+蒸す,chưng,むす,hấp
+ぐっすり,,ぐっすり,say
+きちんと,,きちんと,ngay ngắn
+しっかり,,しっかり,"kiên quyết, chắc chắn, đáng tin cậy"
+はっきり,,はっきり,rõ ràng
+じっと,,じっと,"kiên nhẫn, chăm chú, chằm chằm"
+そっと,,そっと,"nhẹ nhàng, yên lặng"
+別々に,biệt,べつべつに,riêng biệt
+それぞれ,,それぞれ,"lần lượt, tương ứng"
+互いに,hỗ,たがいに,lẫn nhau
+直接,"trực, tiếp",ちょくせつ,trực tiếp
+本当に,"bản, đương",ほんとうに,"thật lòng, kỳ thực"
+必ず,tất,かならず,chắc chắn
+絶対に,"tuyệt, đối",ぜったいに,chắc chắn rồi
+特に,đặc,とくに,đặc biệt là
+ただ,,ただ,chỉ
+少なくとも,thiểu,すくなくとも,ít nhất
+決して,quyết,けっして,không bao giờ
+少しも,thiểu,すこしも,một chút
+ちっとも,,ちっとも,(không) tí gì
+全く,toàn,まったく,hoàn toàn (không)
+とても,,とても,rất
+どんなに,,どんなに,"thế nào, bao nhiêu"
+どうしても,,どうしても,kiểu gì cũng
+まるで,,まるで,như là
+一体,"nhất, thể",いったい,cái quái gì
+別に,biệt,べつに,(không) có gì
+たった,,たった,chỉ
+ほんの,,ほんの,một chút
+それで,,それで,thế thì
+そこで,,そこで,tiếp theo
+そのうえ,,そのうえ,hơn nữa
+また,,また,nữa
+または,,または,hoặc
+それとも,,それとも,hoặc
+つまり,,つまり,nói cách khác
