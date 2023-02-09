@@ -1,4 +1,4 @@
-# JapaneseDesktopWidget
+# Japanese Desktop Widget
 <h2>Main feature: show Japanese vocabulary and furigana. Vietnamese meaning will display for a brief of second before switch to new word.</h2>
 
 <div align="center">
