@@ -2,7 +2,7 @@
 <h2>Main feature: show Japanese vocabulary and furigana. Vietnamese meaning will display for a brief of second before switch to new word.</h2>
 
 <div align="center">
-  <video src="https://user-images.githubusercontent.com/28079928/232830760-d23d7644-bce0-4408-be66-740a0a0fd423.mp4" width=100/></video>
+  <video src="https://user-images.githubusercontent.com/28079928/232831425-a8c36630-7b82-4bea-9754-f13545c40917.mp4" width=100/></video>
 <div/>
 
 
@@ -10,7 +10,3 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/28079928/217908584-3f266fac-1aec-4369-8231-ebdea21fb8cf.png">
 </p>
-
-
-
-
